@@ -101,5 +101,5 @@ if __name__ == '__main__':
         [101,101],
         [102,102],
     ]
-    kmeans_plus_plus = KmeansPlusPlus() 
-    print kmeans_plus_plus.clustering(data,2) 
+    kpp = KmeansPlusPlus() 
+    print kpp.clustering(data,2) 
